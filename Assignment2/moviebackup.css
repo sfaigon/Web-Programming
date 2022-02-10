@@ -1,0 +1,115 @@
+.main {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 4px;
+  border-color: grey;
+  display: block;
+  overflow: hidden;
+
+}
+.left {
+  width: 550px;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+}
+.right {
+  width: 250px;
+  float: right;
+  background-color: #A2B964;
+}
+.cola {
+  
+  flex-basis: 47%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+
+
+}
+
+.colb {
+  
+  flex-basis: 47%;
+  float: right;
+  margin-right: 2%;
+  margin-top: 2%;
+ 
+}
+.box{
+  border-color: grey;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #E1D697;
+  padding: 8px;
+  word-wrap: break-word;
+  
+  
+}
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  float: left;
+}
+.author {
+  font-style: italic;
+  margin-bottom: 3em;
+
+}
+body {
+  background-image: url("https://codd.cs.gsu.edu/~anguyen123/as2/background.jpg");
+  background-repeat: repeat;
+  margin: 0;
+  padding: 0;
+
+}
+*{
+  font-family: Verana, Helvetica, sans-serif;
+  font-size: 8pt;
+}
+
+div.a {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  background-image: url("https://codd.cs.gsu.edu/~anguyen123/as2/bannerbackground.jpg");
+  
+
+}
+
+.insider {
+  padding: 10px;
+
+}
+
+p.description{
+  margin-left: 30px;
+  font-weight: normal;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+p.rightword{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: bold;
+ 
+}
+div.end {
+  clear: both;
+  
+  background-color: #A2B964 ;
+  padding: 5px;
+  text-align: center;
+  
+  border-width: 0px;
+}
